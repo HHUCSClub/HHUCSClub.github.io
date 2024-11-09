@@ -1,4 +1,5 @@
 import { sidebar } from "vuepress-theme-hope";
+import { getNews } from "./getNews.ts";
 
 export default sidebar(
   [
@@ -14,6 +15,9 @@ export default sidebar(
           text: "社团历史", link: "/Introduction/History"
         },
       ]
+    },
+    {
+      text: "新闻", link: "/News/", collapsible: true, children: getNews()
     },
     {
       text: "学习路线", link: "/LearningMap/"
