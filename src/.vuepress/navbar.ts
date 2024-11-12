@@ -8,6 +8,10 @@ export default navbar([
     text: "简介", link: "/Introduction/"
   },
   {
+    text: "新闻", link: "/News/"
+  }
+  ,
+  {
     text: "学习路线", link: "/LearningMap/"
   },
   {
