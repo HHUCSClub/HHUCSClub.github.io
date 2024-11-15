@@ -20,7 +20,11 @@ export default sidebar(
       text: "新闻", link: "/News/", collapsible: true, children: getNews()
     },
     {
-      text: "学习路线", link: "/LearningMap/"
+      text: "学习路线", link: "/LearningMap/", collapsible: true, children: [
+        {
+          text: "资源汇总", link: "/LearningMap/Resources"
+        },
+      ]
     },
     {
       text: "投稿", link: "/Blog/"
